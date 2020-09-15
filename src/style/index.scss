@@ -3,9 +3,10 @@
 @import "reboot";
 
 .resume {
-  margin: 100px;
+  margin: 100px auto;
   background-color: $white;
   padding: 20px;
+  width: 800px;
 
   .resume-header {
     border-bottom: 1px solid $body-bg;
@@ -30,6 +31,23 @@
   .education {
     h2 {
       color: $primary-color;
+    }
+    .sigle-education-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      p,
+      h3 {
+        margin: 0;
+      }
+
+      p {
+        margin-right: 50px;
+      }
+
+      .education-content {
+        background-color: $gray-light;
+      }
     }
   }
 }
