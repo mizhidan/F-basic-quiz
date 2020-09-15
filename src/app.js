@@ -22,6 +22,7 @@ function fillUserEducation(userEducationData) {
     sigleEducationInfo.setAttribute("class", "sigle-education-info");
 
     const educationYear = document.createElement("p");
+    educationYear.setAttribute("class", "education-year");
     educationYear.innerHTML = educationInfo.year;
 
     const educationContent = document.createElement("div");
