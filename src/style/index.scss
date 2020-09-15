@@ -6,7 +6,7 @@
   margin: 100px auto;
   background-color: $white;
   padding: 20px;
-  width: 800px;
+  width: 1000px;
 
   .resume-header {
     border-bottom: 1px solid $body-bg;
@@ -46,6 +46,7 @@
       }
 
       .education-content {
+        width: 90%;
         background-color: $gray-light;
         padding: 10px;
       }
